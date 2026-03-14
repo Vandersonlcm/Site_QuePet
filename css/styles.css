@@ -1,0 +1,1008 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+body {
+    background-color: #d6ebfc;
+}
+
+/* Header */
+.banner-logo {
+    height: auto;
+    display: flex;
+    padding: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-1 {        
+    width: 100%;    
+}
+
+.propaganda-1 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin: -5% 0 0 0;
+}
+
+.banner-propaganda {
+    height: 200px;
+    width: 80%;
+    margin: 0 10%;   
+}
+
+/* Corpo */
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    color: #233;
+}
+.container-dicas {
+    display: flex;
+    max-width: 1200px;
+    padding: 2rem;
+}
+
+#dicas {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 0;
+    margin: auto;
+   
+}
+
+.dicas-1, .dicas-2, .dicas-3 {
+    display: flex;
+    margin:0 15px;
+    width: 100%;
+}
+
+/* Tire suas duvidas */
+.vet-container {  
+    display: flex;
+    max-width: 100%;
+    
+}
+
+.vet-banner {
+    display: flex;
+    
+    width: 80%;
+    padding: 0;
+    margin: 0 10% 0 10%;
+}
+
+.logo-vet {
+    width: 70%;
+    margin:0 20px;
+    text-align: center;
+      
+}
+
+.slideshow-container-1 {
+    position: relative;
+    width: 70%;
+    margin: 0 20px;
+    
+    overflow: hidden;
+    display: block;
+  }
+  
+  /* Slides */
+  .noticias {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+  }
+  
+  /* Efeito de fade (transição suave) */
+  .fade {
+    animation: fadeEffect 4s ease-in-out infinite; 
+  }
+  
+  /* Keyframes para o efeito de fade */
+  @keyframes fadeEffect {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+  }
+
+
+/* segunda propaganda */
+.propaganda-2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.banner-propaganda-2 {
+    height: 200px;
+    width: 80%;
+    margin: 0 10%;   
+}
+
+/* Galeria de Fotos */
+h3 {
+    font-size: 50px;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    color: #233;
+}
+
+.galeria-conteiner {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin: 1rem 0 1rem 0;
+    
+}
+
+.galeria-fotos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    margin: 0 10% 0 10%;
+    
+}
+
+
+
+.foto-b, .foto-c, .foto-d, .foto-a {
+    width: 80%;
+    height: 200px;
+    margin: 0 10px;
+    object-fit: cover;
+    padding: 0;
+  
+    
+}
+
+.f1 {
+    text-align: center;
+}
+
+.envie-foto {
+    margin:2rem auto;
+    text-align: center;
+   
+}
+
+.envie-foto h4 {
+    text-align: center;
+     font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.envie-foto p  {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20pxpx;
+}
+
+.envie-foto input {   
+    width: 250px;
+    padding: 5px 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    margin: 10px 0;
+}
+
+.envie-foto input[type="file"] {
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+}
+
+.envie-foto input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc76a;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 12%;
+}
+
+.envie-foto input:hover[type="submit"] {
+    color: #1e1e2f;
+}   
+ 
+/* Noticias */
+.noticias-pet {
+    display: flex;
+    width: 80%;
+    margin: 3rem 10%;
+ 
+}
+
+.propaganda-noticias {
+    width: 80%;
+    height: auto;
+    padding: 0;  
+}
+
+.propaganda-b {
+    width: 100%;
+    object-fit: fill; 
+}
+
+.slideshow-container {
+    position: relative; 
+    width: 80%; 
+    margin: 0 50px;
+    padding: 0;
+    overflow: hidden; 
+    
+    display: block;
+  }
+  
+  /* Slides */
+  
+  
+.noticias {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+   
+   
+    position: absolute;
+  }
+  
+  /* Efeito de fade (transição suave) */
+  .fade {
+    animation: fadeEffect 2s ease-in-out;
+  }
+  
+  /* Keyframes para o efeito de fade */
+  @keyframes fadeEffect {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+  }
+
+/* Rodapé Geral */
+.footer {
+    width: 100%;
+    height: 290px;
+    background-color: #1e1e2f;
+    color: #ffffff; 
+   
+}
+  
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    gap: 20px;
+}
+
+.footer-about {
+    width: 300px;
+    padding: 2rem 0 ;
+}
+
+h5 {
+   color: #f9a827;
+   font-size: 20px; 
+}
+
+.nos {
+    color: #ccc;
+    padding: 1rem 1rem;
+}
+
+.footer-social {
+    text-align: center;
+    padding: 2rem 0;
+    width: 300px;
+}
+
+.social-icons {
+    padding: 2rem 0;
+}
+
+.inst, .facebook {
+    width: 60px;
+    transition: 0.5s;
+    margin: 0 1rem 0 1rem;
+}
+
+.inst:hover {
+    transform: scale(2.2);
+}
+
+.facebook:hover {
+    transform: scale(2.2);
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+h6 {
+    color: #f9a827;
+    font-size: 20px;  
+}
+
+.social {
+    color: #ccc;
+    padding: 1rem 1rem; 
+}
+
+/* mobile 768 px */
+
+@media (max-width: 768px) {
+    /* Ajustes gerais */
+    body {
+        font-size: 14px;
+    }
+
+    h1, h3, h4 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .banner-logo {
+        display: block;
+        text-align: center;
+    }
+
+    .banner-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .propaganda-1, .propaganda-2 {
+        height: auto;
+    }
+
+    .banner-propaganda, .banner-propaganda-2 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Dicas */
+    .container-dicas {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    #dicas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dicas-1, .dicas-2, .dicas-3 {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    /* Tire suas dúvidas */
+    .vet-banner {
+        flex-direction: column;
+        width: 70%;
+        text-align: center;
+    }
+
+    .logo-vet, .duvidas {
+        width: 100%;
+    }
+
+    .duvidas input, .duvidas textarea {
+        width: 90%;
+    }
+
+    .galeria-conteiner {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .galeria-fotos {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .foto-a, .foto-b, .foto-c, .foto-d {
+        width: 100%;
+        height: auto;
+    }
+
+    .f1 {
+        font-size: 20px;
+    }
+
+    .envie-foto input, .envie-foto input[type="file"] {
+        width: 80%;
+    }
+
+    .envie-foto input[type="submit"] {
+        width: 50%;
+    }
+
+    /* Notícias */
+    .noticias-pet {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .slideshow-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .propaganda-noticias {
+        width: 80%;
+        margin: 0 10;
+    }
+
+    /* Rodapé */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-about,
+    .footer-social {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        font-size: 12px; 
+    }
+
+    .inst, .facebook {
+        width: 40px; 
+    }
+
+    .footer {
+        height: auto; 
+        padding: 1rem 0;
+    }
+}
+
+/* mobile 425 px */
+@media (max-width: 425px) {
+    /* Ajuste do body */
+    body {
+        padding: 0 10px;
+    }
+
+    /* Header */
+    .banner-logo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-1 {
+        width: 100%;
+    }
+
+    .propaganda-1 {
+        height: auto;
+        margin: 1rem 0;
+    }
+
+    .banner-propaganda {
+        width: 100%;
+    }
+
+    /* Títulos */
+    h1, h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /* Dicas */
+    .container-dicas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #dicas {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .dicas-1, .dicas-2, .dicas-3 {
+        margin: 0 0 1rem 0;
+        width: 100%;
+    }
+
+    /* Veterinário */
+    .vet-banner {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logo-vet, .duvidas {
+        width: 90%;
+        margin: 1rem 0;
+    }
+
+    .duvidas input, .duvidas textarea {
+        width: 80%;
+    }
+
+    .duvidas input[type="submit"] {
+        width: 80%;
+    }
+
+    /* Propaganda */
+    .propaganda-2 {
+        height: auto;
+    }
+
+    .banner-propaganda-2 {
+        width: 100%;
+    }
+
+    /* Galeria */
+    .galeria-conteiner {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .galeria-fotos {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .foto-a, .foto-b, .foto-c, .foto-d {
+        width: 100%;
+        height: auto;
+    }
+
+    .f1 {
+        font-size: 12px;
+    }
+
+    .envie-foto input, .envie-foto input[type="file"] {
+        width: 100%;
+    }
+
+    .envie-foto input[type="submit"] {
+        width: 100%;
+    }
+
+    /* Notícias */
+    .noticias-pet {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slideshow-container {
+        width: 100%;
+    }
+
+    .propaganda-noticias {
+        width: 100%;
+    }
+
+    /* Rodapé */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-about,
+    .footer-social {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        font-size: 12px; 
+    }
+
+    .inst, .facebook {
+        width: 40px; 
+    }
+
+    .footer {
+        height: auto; 
+        padding: 1rem 0;
+    }
+}
+
+/* mobile 412 px */
+
+@media (max-width: 412px) {
+    body {
+        font-size: 14px;
+    }
+
+    /* Header */
+    .banner-logo {
+        padding: 0;
+    }
+
+    .banner-1 {
+        width: 100%;
+    }
+
+    .propaganda-1,
+    .propaganda-2 {
+        height: 150px;
+    }
+
+    .banner-propaganda,
+    .banner-propaganda-2 {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    /* Dicas para os Pets */
+    .container-dicas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dicas-1,
+    .dicas-2,
+    .dicas-3 {
+        margin: 10px 0;
+        width: 90%;
+    }
+
+    #dicas {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* Formulários */
+    .duvidas input,
+    .duvidas textarea,
+    .envie-foto input[type="text"],
+    .envie-foto input[type="email"],
+    .envie-foto input[type="file"] {
+        width: 90%;
+    }
+
+    .duvidas input[type="submit"],
+    .envie-foto input[type="submit"] {
+        width: 50%;
+    }
+
+    /* Galeria de Fotos */
+    .galeria-conteiner {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .galeria-fotos {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .foto-a,
+    .foto-b,
+    .foto-c,
+    .foto-d {
+        width: 90%;
+        height: auto;
+    }
+
+    .f1 {
+        font-size: 14px;
+    }
+
+    /* Rodapé */
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .footer-about,
+    .footer-social {
+        width: 100%;
+    }
+
+    .inst,
+    .facebook {
+        width: 40px;
+        margin: 0 10px;
+    }
+}
+
+/* mobile 375 px */
+
+@media (max-width: 375px) {
+    /* Header */
+    .banner-logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .propaganda-1, .propaganda-2 {
+        height: auto;
+    }
+
+    .banner-propaganda, .banner-propaganda-2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Títulos */
+    h1, h3 {
+        font-size: 28px;
+        margin: 1rem 0;
+    }
+
+    /* Dicas */
+    .container-dicas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #dicas {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .dicas-1, .dicas-2, .dicas-3 {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .dicas-1 img, .dicas-2 img, .dicas-3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Tire suas dúvidas */
+    .vet-container {
+        padding: 1rem;
+    }
+
+    .vet-banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-vet, .duvidas {
+        width: 100%;
+    }
+
+    .duvidas input, .duvidas textarea {
+        width: 90%;
+    }
+
+    /* Galeria */
+    .galeria-conteiner {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .galeria-fotos {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .foto-a, .foto-b, .foto-c, .foto-d {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* Envie foto */
+    .envie-foto input[type="text"], .envie-foto input[type="email"], .envie-foto input[type="file"] {
+        width: 90%;
+    }
+
+    .envie-foto input[type="submit"] {
+        width: 50%;
+    }
+
+    /* Notícias */
+    .noticias-pet {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .propaganda-noticias, .slideshow-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .slideshow-container {
+        height: auto;
+    }
+
+    .noticias {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Rodapé */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-about,
+    .footer-social {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        font-size: 12px; 
+    }
+
+    .inst, .facebook {
+        width: 40px; 
+    }
+
+    .footer {
+        height: auto; 
+        padding: 1rem 0;
+    }
+}
+
+/* Adicionando responsividade */
+@media (max-width: 320px) {
+    body {
+        font-size: 14px;
+    }
+
+    /* Ajuste do banner */
+    .banner-logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .propaganda-1, .propaganda-2 {
+        height: auto;
+    }
+
+    .banner-propaganda, .banner-propaganda-2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Dicas */
+    .container-dicas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #dicas {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .dicas-1, .dicas-2, .dicas-3 {
+        margin: 10px 0;
+    }
+
+    .vet-banner {
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        
+    }
+
+    .logo-vet {
+        width: 100%;
+        margin:auto;
+        text-align: center;   
+    }
+
+    /* Formulários e inputs */
+    .duvidas input, .envie-foto input {
+        width: 90%;
+    }
+
+    .duvidas textarea {
+        width: 90%;
+    }
+
+    .duvidas input[type="submit"], .envie-foto input[type="submit"] {
+        width: 50%;
+    }
+
+    /* Galeria de fotos */
+    .galeria-conteiner {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .galeria-fotos {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .foto-a, .foto-b, .foto-c, .foto-d {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .envie-foto input[type="file"] {
+        display: block;
+       
+        width: 250px;
+    }
+
+    /* Notícias */
+    .noticias-pet {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slideshow-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .propaganda-noticias {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .propaganda-b {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-about,
+    .footer-social {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        font-size: 12px; 
+    }
+
+    .inst, .facebook {
+        width: 40px; 
+    }
+
+    .footer {
+        height: auto; 
+        padding: 1rem 0;
+    }
+}
+
+
+
+
+
